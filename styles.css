@@ -1,0 +1,94 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .figure-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+  }
+  
+  figure{
+    width: 35%;
+    margin: 0;
+  }
+  
+  figure img{
+    width: 100%;
+    height: auto;
+  }
+  
+  .title-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+  }
+  
+  h1{
+    font-size: x-large;
+    width: auto;
+  }
+  
+  .date{
+    text-align: center;
+    display: block;
+    margin: 10px;
+  }
+  
+  .container{
+    display: flex;
+    justify-content: center;
+    margin: 10px auto,
+  }
+  
+  table{
+    border-collapse: collapse;
+    width: 95%;
+    margin-top: 10px;
+  }
+  
+  tr, td {
+    padding: 15px;
+    border-bottom: 1px solid white;
+    border-right: 1px solid white;
+  }
+  
+  .responsible, .motive, .localitation, .receptor, .department, .turno, .material, .quantity, .testerid{
+    background-color: rgb(251, 164, 132);
+  }
+  
+  #responsible, #localitation, #department{
+    background-color: rgb(251, 164, 132);
+  }
+  
+  #motive, #receptor, #turno{
+    background-color: rgb(248, 209, 195);
+  }
+  
+  .table-two tr:nth-child(even) {
+    background-color: rgb(248, 209, 195);
+  }
+  
+  .table-two tr:nth-child(odd){
+    background-color: rgb(251, 164, 132);
+  }
+  
+  #testerid{
+    width: auto;
+  }
+  
+  .material{
+    width: 45%;
+  }
+  
+  .foot-message{
+    position: static;
+    bottom: 0;
+    margin: 20px auto;
+    padding: 2px;
+    width: 95%;
+    display: flex;
+    justify-content: center;
+  
+  }

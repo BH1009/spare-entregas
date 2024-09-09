@@ -1,0 +1,147 @@
+:root {
+  --color-bisque: #FFE4C4;
+  --color-rgb1: rgb(251, 164, 132);
+  --color-peach-puff: #FFDAB9;
+  --color-light-coral: #F08080;
+  --color-pale-goldenrod: #EEE8AA;
+  --color-light-salmon: #FFA07A;
+  --color-blanched-almond: #FFEBCD;
+  --color-misty-rose: #FFE4E1;
+  --color-lavender-blush: #FFF0F5;
+  --color-antique-white: #FAEBD7;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+header {
+  margin: 20px;
+}
+
+.figure-container {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+figure {
+  width: 35%;
+  margin: 0;
+}
+
+figure img {
+  width: 100%;
+  height: auto;
+}
+
+.title-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px;
+}
+
+h1 {
+  font-size: x-large;
+  width: auto;
+}
+
+.date {
+  text-align: center;
+  display: block;
+  margin: 10px;
+}
+
+main {
+  margin: 10px;
+}
+
+.form-group {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.responsible,
+.motive,
+.localitation,
+.receptor,
+.department,
+.turno{
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: var(--color-rgb1);
+  border: 1px solid white;
+}
+
+.info{
+  width: 50%;
+  height: 100%;
+  font-size: large;
+  background-color: var(--color-bisque);
+  border: 1px solid white;
+}
+
+.material-group {
+  display: flex;
+  margin-top: 12px;
+  height: 40px;
+  width: 100%;
+}
+
+.form-material{
+  display: flex;
+  align-items: center;
+  height: 40px;
+  width: 100%;
+}
+
+.material{
+  width: 50%;
+  height: 100%;
+  padding: 10px;
+  background-color: var(--color-rgb1);
+  border: 1px solid white;
+}
+
+.quantity,
+.testerid{
+  width: 25%;
+  height: 100%;
+  padding: 10px;
+  background-color: var(--color-rgb1);
+  border: 1px solid white;
+}
+
+.material-input{
+  width: 50%;
+  height: 40px;
+  font-size: large;
+  background-color: var(--color-bisque);
+  border: 1px solid white;
+}
+
+.quantity-input,
+.tester-input{
+  width: 22%;
+  height: 40px;
+  font-size: large;
+  background-color: var(--color-bisque);
+  border: 1px solid white;
+}
+
+#addMaterial {
+  height: 40px;
+  width: 30%;
+  font-size: large;
+  border-radius: 2px;
+  border: 1px solid white;
+  background-color: #EEE8AA;
+}
+
+#addMaterial:hover {
+  background-color: #f1eec2;
+}

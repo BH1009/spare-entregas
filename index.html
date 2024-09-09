@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <div class="figure-container">
+            <figure><img src="assets/foxconn.png" alt="foxconn logo"></figure>
+            <figure><img src="assets/ingrasys.png" alt="ingrasys logo"></figure>
+        </div>
+        <div class="title-container">
+          <h1>FORMATO DE ENTREGA DE MATERIAL SPARE PARTS</h1>
+        </div>
+        <b class="date">FECHA Y HORA DE ENTREGA: <u><span id="datenow"></span></u> </b>
+    </header>
+    <main>
+        <div class="form-group">
+            <label for="responsbible" class="responsible">RESPONSABLE</label>
+            <input type="text" name="responsbible" id="responsbible" class="info">
+        </div>
+        
+        <div class="form-group">
+            <label for="motive" class="motive">MOTIVO/SCRAP</label>
+            <input type="text" name="motive" id="motive" class="info">
+        </div>
+
+        <div class="form-group">
+            <label for="localitation" class="localitation">LOCALITATION</label>
+            <input type="text" name="localitation" id="localitation" class="info">
+        </div>
+        <div class="form-group">
+            <label for="receptor" class="receptor">RECEPTOR</label>
+            <input type="text" name="receptor" id="receptor" class="info">
+        </div>
+
+        <div class="form-group">
+            <label for="responsbible" class="responsible">DEPARTAMENTO/AREA</label>
+            <input type="text" name="department" id="department" class="info">
+        </div>
+
+        <div class="form-group">
+            <label for="responsbible" class="responsible">TURNO</label>
+            <input type="number" name="department" id="turno" class="info">
+        </div>
+
+        <div class="form-material">
+            <label for="material" class="material">MATERIAL</label>
+            <label for="quatity" class="quantity">CANTIDAD</label>
+            <label for="testerid" class="testerid">TESTERID</label>
+        </div>
+
+        <div class="form-input" id="material-input">
+
+        </div>
+        
+        
+        <button id="addMaterial">Agregar Material</button>
+    </main>
+    <script src="main.js"></script>
+</body>
+</html>
