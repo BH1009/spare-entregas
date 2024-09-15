@@ -11,13 +11,15 @@ window.addEventListener('DOMContentLoaded', () => {
 addMaterial.addEventListener('click', (event) => {
     event.preventDefault()
 
+    const container = document.createElement('div')
+
     const material = document.createElement('input')
     material.type = 'text'
     material.name = 'material'
     material.classList.add('material-input')
 
     const quantity = document.createElement('input')
-    quantity.type = 'text'
+    quantity.type = 'number'
     quantity.name = 'quantity'
     quantity.classList.add('quantity-input')
 
@@ -26,9 +28,21 @@ addMaterial.addEventListener('click', (event) => {
     tester.name = 'tester'
     tester.classList.add('tester-input')
 
-    materialInput.appendChild(material)
-    materialInput.appendChild(quantity)
-    materialInput.appendChild(tester)
+    const deleteButton = document.createElement('button')
+    deleteButton.textContent = "X"
+    deleteButton.classList.add('delete-button')
+
+    deleteButton.addEventListener('click', (event) => {
+        event.preventDefault()
+        event.target.parentNode.remove()
+    })
+
+    container.appendChild(material)
+    container.appendChild(quantity)
+    container.appendChild(tester)
+    container.appendChild(deleteButton)
+
+    materialInput.appendChild(container)
 })
 
 

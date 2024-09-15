@@ -54,7 +54,7 @@ h1 {
 }
 
 main {
-  margin: 10px;
+  margin: 20px;
 }
 
 .form-group {
@@ -74,7 +74,7 @@ main {
   height: 100%;
   padding: 10px;
   background-color: var(--color-rgb1);
-  border: 1px solid white;
+  border: 1px solid var(--color-antique-white);
 }
 
 .info{
@@ -104,7 +104,7 @@ main {
   height: 100%;
   padding: 10px;
   background-color: var(--color-rgb1);
-  border: 1px solid white;
+  border: 1px solid var(--color-antique-white);
 }
 
 .quantity,
@@ -113,7 +113,7 @@ main {
   height: 100%;
   padding: 10px;
   background-color: var(--color-rgb1);
-  border: 1px solid white;
+  border: 1px solid var(--color-antique-white);
 }
 
 .material-input{
@@ -121,7 +121,7 @@ main {
   height: 40px;
   font-size: large;
   background-color: var(--color-bisque);
-  border: 1px solid white;
+  border: 2px solid var(--color-antique-white);
 }
 
 .quantity-input,
@@ -130,7 +130,14 @@ main {
   height: 40px;
   font-size: large;
   background-color: var(--color-bisque);
-  border: 1px solid white;
+  border: 1px solid var(--color-antique-white);
+}
+.delete-button{
+  width: 6%;
+  height: 40px;
+  font-size: large;
+  background-color: var(--color-light-coral);
+  border: 1px solid var(--color-antique-white);
 }
 
 #addMaterial {
